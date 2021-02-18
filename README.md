@@ -27,3 +27,15 @@
 - Congratulations, your file is now on GitHub.
 
 ## Glossary of Important Words to Know Before Using GitHub
+- **Branch**
+- **Clone**
+- **Commit**
+- **Fetch**
+- **GIT**
+- **Github**
+- **Merge**
+- **Merge Conflict**
+- **Push**
+- **Pull**
+- **Remote**
+- **Repository**
