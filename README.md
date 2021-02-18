@@ -56,8 +56,7 @@
 - **Pull**: To download a revised revision of a branch from the server to merge it with your local copy on your system. Comes incredibly handy when developing as a team. 
 
 
-- **Remote**: This is the version of a repository or branch that is hosted on a server, most likely GitHub.com. Remote versions can be connected to local clones so that changes can be synced.
-A version of the repository or branch that is hosted on the GitHub server (or any other server). Can either be edited from the server remotely, or downloaded to your system and edited locally. 
+- **Remote**: A version of the repository or branch that is hosted on the GitHub server (or any other server). Can either be edited from the server remotely, or downloaded to your system and edited locally. 
 
 - **Repository**: Basic file storage of all your branches, files, and other documentation related to your project. Repositories are located on the GitHub server and can be accessed by all people publicly or be kept as a private project. 
 
