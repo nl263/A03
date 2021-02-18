@@ -27,38 +27,39 @@
 - Congratulations, your file is now on GitHub.
 
 ## Glossary of Important Words to Know Before Using GitHub
-- **Branch**: A branch is a parallel version of a repository. It is contained within the repository, but does not affect the primary or main branch allowing you to work freely without disrupting the "live" version. When you've made the changes you want to make, you can merge your branch back into the main branch to publish your changes.
-- **Clone**:A clone is a copy of a repository that lives on your computer instead of on a website's server somewhere, or the act of making that copy. When you make a clone, you can edit the files in your preferred editor and use Git to keep track of your changes without having to be online. The repository you cloned is still connected to the remote version so that you can push your local changes to the remote to keep them synced when you're online.
+- **Branch**: A separate version of your main repository that lives in the same area. You can make changes to the branch without tampering your main repository, and merge the two if you are content with the results. 
+
+- **Clone**: An offline copy of your main repository that's stored on your system's harddrive instead of a website's server. Having a copy of the repository allows you to use an IDE or development tools that you want, while still be able to push this version back to your GitHub.
 
 
-- **Commit**:A commit, or "revision", is an individual change to a file (or set of files). When you make a commit to save your work, Git creates a unique ID (a.k.a. the "SHA" or "hash") that allows you to keep record of the specific changes committed along with who made them and when. Commits usually contain a commit message which is a brief description of what changes were made.
+
+- **Commit**: A change to a file on your repository that's recorded and can be viewed publicly or privately. Can be seen as a sort of change-log.
 
 
-- **Fetch**: When you use git fetch, you're adding changes from the remote repository to your local working branch without committing them. Unlike git pull, fetching allows you to review changes before committing them to your local branch.
+- **Fetch**: To add changes from one repository to another without fully changing them. Before you do commit, fetching allows you to check the changes first.
 
 
-- **GIT**:Git is an open source program for tracking changes in text files. It was written by the author of the Linux operating system, and is the core technology that GitHub, the social and user interface, is built on top of.
+- **GIT**: An open source program that allows to track changes made to a program that you're working on. Necessary to have if you want to connect Webstorm or other IDE's directly to GitHub to push your project from the workstation of your choice.
+
+- **Github**: A hub and service where you can upload your various coding projects as files known as repositories. This service is open for singular users or entire organizations.
 
 
-- **Github**:GitHub provide a service to an entire organization and use their own identity when performing their function. They can be installed directly on organizations and user accounts and granted access to specific repositories. They come with granular permissions and built-in webhooks.
+- **Merge**: To take one form of a branch and merges it with another one, as long as they are all in the same repository.
+ 
+
+- **Merge Conflict**: When an error happens on one of the merged branches. An error could include a line of code not functioning properly which causes the entire branch to fail, or if one of the merged branches are deleted. 
 
 
-- **Merge**: Merging takes the changes from one branch (in the same repository or from a fork), and applies them into another. This often happens as a "pull request" (which can be thought of as a request to merge), or via the command line. A merge can be done through a pull request via the GitHub.com web interface if there are no conflicting changes, or can always be done via the command line.
+- **Push**: To send your offline/local work to the online repository for either public or private access on the Git server. The server does not check before you push items. 
 
 
-- **Merge Conflict**: A difference that occurs between merged branches. Merge conflicts happen when people make different changes to the same line of the same file, or when one person edits a file and another person deletes the same file. The merge conflict must be resolved before you can merge the branches.
-
-
-- **Push**: To push means to send your committed changes to a remote repository on GitHub.com. For instance, if you change something locally, you can push those changes so that others may access them.
-
-
-- **Pull**: Pull refers to when you are fetching in changes and merging them. For instance, if someone has edited the remote file you're both working on, you'll want to pull in those changes to your local copy so that it's up to date. See also fetch.
+- **Pull**: To download a revised revision of a branch from the server to merge it with your local copy on your system. Comes incredibly handy when developing as a team. 
 
 
 - **Remote**: This is the version of a repository or branch that is hosted on a server, most likely GitHub.com. Remote versions can be connected to local clones so that changes can be synced.
+A version of the repository or branch that is hosted on the GitHub server (or any other server). Can either be edited from the server remotely, or downloaded to your system and edited locally. 
 
-
-- **Repository**: A repository is the most basic element of GitHub. They're easiest to imagine as a project's folder. A repository contains all of the project files (including documentation), and stores each file's revision history. Repositories can have multiple collaborators and can be either public or private.
+- **Repository**: Basic file storage of all your branches, files, and other documentation related to your project. Repositories are located on the GitHub server and can be accessed by all people publicly or be kept as a private project. 
 
 ## Resources Used:
 - https://docs.github.com/en/github/getting-started-with-github/github-glossary#clone
